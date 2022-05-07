@@ -6,6 +6,6 @@ ide/vs20??/.vs
 out/
 docs/
 *.zip
-!/build
-/build/*
-!/build/CMakeCache.txt
+!build
+build/*
+!build/CMakeCache.txt
