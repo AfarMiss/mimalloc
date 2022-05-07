@@ -6,3 +6,4 @@ ide/vs20??/.vs
 out/
 docs/
 *.zip
+build/
