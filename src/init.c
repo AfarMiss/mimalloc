@@ -363,7 +363,7 @@ static void _mi_thread_done(mi_heap_t* default_heap);
 #elif defined(_WIN32) && !defined(MI_SHARED_LIB)
   // use thread local storage keys to detect thread ending
   #include <windows.h>
-  #include <fibersapi.h>
+  //#include <fibersapi.h>
   #if (_WIN32_WINNT < 0x600)  // before Windows Vista 
   WINBASEAPI DWORD WINAPI FlsAlloc( _In_opt_ PFLS_CALLBACK_FUNCTION lpCallback );
   WINBASEAPI PVOID WINAPI FlsGetValue( _In_ DWORD dwFlsIndex );
